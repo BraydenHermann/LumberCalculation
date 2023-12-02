@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1.0">
+  <zoom_level>9</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>189</x>
+      <y>9</y>
+      <w>117</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>LumberChecker
+-
+_-epsilon:double_
+-
++validate():String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>450</x>
+      <y>333</y>
+      <w>234</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>UML Diagram by Brayden Hermann</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>18</x>
+      <y>9</y>
+      <w>153</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>Assignment02
+-
+
+-
++main(args:String[]):void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>18</x>
+      <y>108</y>
+      <w>423</w>
+      <h>252</h>
+    </coordinates>
+    <panel_attributes>DimensionalLumber
+-
+_-expected_thickness:double_
+_-expected_width:double_
+_-expected_length:double_
+-thickness:double
+-width:double
+-length:double
+-
++DimensionalLumber():void
++DimensionalLumber(thickness:double, width:double, length:double):void
++getThickness():double
++setThickness(thickness:double):void
++getWidth():double
++setWidth(width:double):void
++getLength():double
++setLength(length:double):void
++toString():String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>324</x>
+      <y>9</y>
+      <w>126</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>Epsilon = 0.03125</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>459</x>
+      <y>108</y>
+      <w>225</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>User
+-
+
+-
++inputInteger(message:String):int
++inputDouble(message:String):double
++inputString(message:String):String
+-inputInteger():int
+-inputDouble():double
+-inputString():String</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
